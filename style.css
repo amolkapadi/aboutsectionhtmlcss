@@ -1,0 +1,44 @@
+.column{
+    margin-top: 30px;
+    text-align: justify;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+}
+.text{
+    font-size: 25px;
+}
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border: none;
+    display: block;
+    cursor: pointer;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ @media screen and (max-width:600px){
+    .column{
+        width: 100%;
+    }
+ }
